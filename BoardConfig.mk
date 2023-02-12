@@ -37,7 +37,7 @@ SOONG_CONFIG_xiaomiSm8350Vars_vibrator_use_effect_stream := true
 include vendor/xiaomi/haydn/BoardConfigVendor.mk
 
 # Include Firmware
-include vendor/xiaomi/haydn-firmware/BoardConfigVendor.mk
+#include vendor/xiaomi/haydn-firmware/BoardConfigVendor.mk
 
 # Inherit from proprietary files for miuicamera
 include vendor/xiaomi/haydn-miuicamera/products/board.mk
