@@ -1,4 +1,4 @@
-.#
+#
 # Copyright (C) 2021 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/haydn/device.mk)
 
 # Inherit some common XtendedOS stuff.
-$(call inherit-product, vendor/xtended/config/common.mk)
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := haydn
