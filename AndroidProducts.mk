@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_haydn.mk
+    $(LOCAL_DIR)/xtended_haydn.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_haydn-user \
-    superior_haydn-userdebug \
-    superior_haydn-eng
+    xtended_haydn-user \
+    xtended_haydn-userdebug \
+    xtended_haydn-eng

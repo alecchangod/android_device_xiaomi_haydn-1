@@ -17,6 +17,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina/sound_trigger_mixer_paths.xml \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina/sound_trigger_platform_info.xml
 
+# Board
+PRODUCT_BOARD_PLATFORM := sm8350
+
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.haydn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.haydn.rc
@@ -39,6 +42,9 @@ PRODUCT_PACKAGES += \
 # Refresh Rate
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.use_content_detection_for_refresh_rate=false
+
+# SoC
+PROCESSOR_MODEL := SM8350
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
